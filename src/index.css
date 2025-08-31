@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+/* Nice gradient header */
+.header-gradient {
+  background: linear-gradient(90deg, rgba(99,102,241,1) 0%, rgba(236,72,153,1) 50%, rgba(20,184,166,1) 100%);
+}
